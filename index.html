@@ -25,6 +25,7 @@
 
   <body>
     <!-- header -->
+
     <header class="page-header">
       <div class="header-container container">
         <nav class="header-nav">
@@ -67,12 +68,19 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-button" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
       <!-- section1 -->
-      <section class="hero-section">
+
+      <section class="hero-section hidden">
         <div class="container hero-container">
           <h1 class="hero-title cent-r">
             Effective Solutions for Your Business
@@ -85,7 +93,8 @@
       </section>
 
       <!-- section2 -->
-      <section class="solutions-sect">
+
+      <section class="solutions-sect hidden">
         <div class="container">
           <h2 class="visually-hidden">Solutions</h2>
           <ul class="solutions-list">
@@ -153,7 +162,8 @@
       </section>
 
       <!-- section3 -->
-      <section class="sect-team">
+
+      <section class="sect-team hidden">
         <div class="container">
           <h2 class="sect-title cent-r">Our Team</h2>
 
@@ -355,7 +365,8 @@
       </section>
 
       <!-- section4 -->
-      <section class="sect-portfolio">
+
+      <section class="sect-portfolio hidden">
         <div class="container">
           <h2 class="sect-title cent-r">Our Portfolio</h2>
 
@@ -497,7 +508,8 @@
     </main>
 
     <!-- foter -->
-    <footer class="page-footer">
+
+    <footer class="page-footer hidden">
       <div class="container footer-container">
         <div class="footer-cont-logo">
           <a
@@ -576,7 +588,8 @@
     </footer>
 
     <!-- Modal -->
-    <div class="backdrop" data-modal>
+
+    <div class="backdrop hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn-close" data-modal-close>
           <svg class="modal-btn-close-icon" width="8" height="8">
