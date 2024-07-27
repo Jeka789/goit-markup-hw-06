@@ -425,9 +425,213 @@ button {
     }
 }
 
+/* ----- SECTION 1 ----- */
 
+.hero-section {
+    padding: 72px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                      rgba(46, 47, 66, 0.7)),
+        url(../images/m-piople-office-1x.jpg);
 
+        margin: 0 auto;
+        max-width: 320px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
 
+.hero-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-title {
+    max-width: 216px;
+
+    margin-bottom: 72px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-btn {
+    display: block;
+
+    min-width: 169px;
+    height: 56px;
+
+    padding: 16px 32px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+    background-color: #4d5ae5;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-section {
+        padding: 112px 0;
+    
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                          rgba(46, 47, 66, 0.7)),
+        url(../images/t-piople-office-1x.jpg);
+    
+        max-width: 768px;
+    }
+
+    .hero-title {
+        max-width: 496px;
+
+        margin-bottom: 36px;
+
+        font-size: 56px;
+        line-height: 1.07;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .hero-section {
+        padding: 188px 0;
+    
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                                          rgba(46, 47, 66, 0.7)),
+        url(../images/d-people-office-1x.jpg);
+    
+        max-width: 1440px;
+    }
+
+    .hero-title {
+        margin-bottom: 48px;
+    }
+}
+
+/* ----- SECTION 2 ----- */
+
+.solutions-sect {
+    padding: 96px 0;
+}
+
+.solutions-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+}
+
+.solutions-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    width: 100%;
+}
+
+.solutions-icons-cont {
+    display: none;
+}
+
+.solutions-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.solutions-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+    .solutions-list {
+        gap: 72px 24px;
+    }
+
+    .solutions-item {
+        width: 356px;
+
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .solutions-sect {
+        padding: 120px 0;
+    }
+
+    .solutions-list {
+        gap: 24px;
+    }
+
+    .solutions-item {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    
+        width: 264px;
+    
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .solutions-icons-cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        width: 264px;
+        height: 112px;
+    
+        margin-bottom: 8px;
+    
+        border-radius: 4px;
+        border: 1px solid #8e8f99;
+    
+        background-color: #f4f4fd;
+    }
+
+    .solutions-icons {
+        margin: 24px 100px;
+    }
+
+    .solutions-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .solutions-text {
+        font-weight: 400;
+    }
+}
+
+/* ----- SECTION 3 ----- */
 
 
 
