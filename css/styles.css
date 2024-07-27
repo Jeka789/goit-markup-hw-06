@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+picture {
+    flex-shrink: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -786,12 +790,6 @@ button {
     padding: 96px 0;
 }
 
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px;
-}
-
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -804,15 +802,20 @@ button {
     margin-bottom: 72px;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
 
 
 
 
 
 
-
-
-
+.portfolio-item-text {
+    display: none;
+}
 
 
 
