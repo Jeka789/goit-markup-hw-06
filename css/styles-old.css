@@ -1,47 +1,4 @@
 
-/*----- FOOTER -----*/
-
-.page-footer {
-    padding: 100px 0;
-}
-
-.footer-container {
-    align-items: baseline;
-    justify-content: left;
-}
-
-.footer-container-logo {
-    margin-right: 120px;
-}
-
-.foot-logo-pag {  
-    margin-bottom: 16px;
-}
-
-.footer-text {
-    max-width: 264px;
-}
-
-.footer-text { 
-    margin-bottom: 16px;
-}
-
-.footer-form {
-    margin-left: 80px;
-}
-
-.footer-form-email {
-    flex-direction: row;
-    gap: 24px;
-    
-    max-width: 453px;
-    max-height: 80px;
-}
-
-.footer-form-input {
-    width: 264px;
-}
-
 /* ----- MODAL ----- */
 
 .backdrop {
