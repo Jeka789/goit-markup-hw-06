@@ -323,10 +323,6 @@ button {
     gap: 40px;
 }
 
-.mobile-nav-item {
-
-}
-
 .mobile-nav-link {
     display: block;
 
@@ -350,10 +346,6 @@ button {
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
-}
-
-.mobile-contacts-item {
-
 }
 
 .mobile-contacts-link {
