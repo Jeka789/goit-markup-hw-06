@@ -363,9 +363,15 @@ button {
 .mobile-nav-link:hover,
 .mobile-nav-link:focus,
 .mobile-contacts-link:hover,
-.mobile-contacts-link:focus {
+.mobile-contacts-link:focus, 
+.mobile-studio-link {
     color: #404bbf;
 }
+
+.mobile-tel-link {
+    color: #4d5ae5;
+}
+
 
 .mobile-soc-cont {
     margin-top: 48px;
@@ -601,6 +607,9 @@ button {
     }
 
     .solutions-item {
+        align-items: flex-start;
+        justify-content: flex-start;
+        
         width: 356px;
 
         flex-basis: calc((100% - 24px) / 2);
@@ -617,10 +626,6 @@ button {
     }
 
     .solutions-item {
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-    
         width: 264px;
     
         flex-basis: calc((100% - 72px) / 4);
@@ -909,7 +914,7 @@ button {
 
 .page-footer {
     background-color: #2e2f42;
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 
 .footer-container {
@@ -1081,10 +1086,12 @@ input::placeholder {
 
 @media screen and (min-width: 768px) {
     .page-footer {
-        padding: 96px 108px;
+        padding: 96px 0;
     }
 
     .footer-container {
+        padding: 0 108px;
+
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-start;
@@ -1125,10 +1132,12 @@ input::placeholder {
 
 @media screen and (min-width: 1158px) {
     .page-footer {
-        padding: 100px 15px;
+        padding: 100px 0;
     }
 
     .footer-container {
+        padding: 0 15px;
+
         justify-content: center;
         gap: 0;
     }
@@ -1430,10 +1439,6 @@ input::placeholder {
     .modal-checkbox-link {
         margin-left: 4px;
     }
-}
-
-@media screen and (min-width: 1158px) {
-    
 }
 
 
